@@ -11,7 +11,7 @@ public class WeaponManager : MonoBehaviour
     public GameObject sight;
     public GameObject frontGrip; 
     public GameObject stock;
-    public GameObject stock2; // deactivate for presentation purposes
+    public GameObject stock2; // deactivate when stock is active for presentation purposes
 
 
 

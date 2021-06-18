@@ -46,9 +46,9 @@ using UnityEngine.UI;
         {
             muzzleSp = 200;
         }
-        else if (muzzleSp > 1100)
+        else if (muzzleSp > 1700)
         {
-            muzzleSp = 1100;
+            muzzleSp = 1700;
         }
         
 
@@ -56,9 +56,17 @@ using UnityEngine.UI;
         {
             weigh = 0.5f;
         }
-        else if(weigh > 300)
+        else if(weigh > 1000)
         {
-            weigh = 300;
+            weigh = 1000;
+        }
+
+        if(fireRt< 10)
+        {
+            fireRt = 10;
+        }else if(fireRt > 10000)
+        {
+            fireRt = 10000;
         }
 
         this.weaponCalliber = weaponCal;

@@ -3,15 +3,12 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class Muzzle : MonoBehaviour
-{
 
-}
 
 public abstract class statistics
 {
     
-    //----Attachments--------
+    //----Attachments Controller--------
     public static bool hasSight;
     public static bool hasLaserFlash;
     public static bool hasStock;
@@ -19,7 +16,7 @@ public abstract class statistics
     public static bool hasMuzzle;
     public static bool hasSilencer;
 
-    //----estatistics--------
+    //----stats--------
     public int durability; // max durability 100 / min 0
     public int ergonomics; // max ergonomics 100 / min 0
     public int accuracy; // being 100 the best, max accuracy 100 / min 50
